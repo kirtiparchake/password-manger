@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color: antiquewhite;
+
+}
+h1 , h2{
+  font-family: cursive;
+  color: rgb(117, 96, 96);
+}
+nav{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(39, 36, 36);
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo img{
+    width: 78px;
+   
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding-right: 20px;
+}
+.center{
+    /* height: 90%; */
+    width: 90%;
+    /* background-color: azure; */
+    margin-left: 10%;
+
+}
+.top{
+    height: 20%;
+    width: 90%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    
+}
+.top span{
+    margin-top: 10px;
+}
+.mid{
+   height: auto;
+    margin-top: 30px;
+    
+    
+
+}
+
+.bottom{
+    margin-top: 50px;
+}
+
+table {
+    margin-top: 10px;
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+ 
+  th {
+    background-color: #f2f2f2;
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+i{
+    cursor: pointer;
+    padding-left: 8px;
+    
+}
+  tr {
+    background-color: #f2f2f2;
+  }
+  
+
+  td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+   
+    justify-content: space-between;
+  }
+  
+.mid button{
+    margin-top: 10px;
+}
+.bottom{
+     height: 40%;
+     width: 100%;
+}
+.web{
+    margin-top: 10px;
+}
+.user{
+    margin-top: 10px;
+}
+.pass{
+    margin-top: 10px;
+    position: relative;
+}
+.sub{
+    margin-top: 30px;
+    color: white;
+    background-color: rgb(97, 85, 85);
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    border: 2px solid white;
+    text-transform: capitalize;
+
+}
+
+.copied{
+    display: none;
+}
+.pass{
+    display: flex;
+    position: relative;
+
+}
+#toggle{
+    width: 20px;
+    height: 20px;
+    /* display: flex; */
+    
+position: absolute;
+left: 210px;
+}
+
+#eyeon{
+    /* position: absolute; */
+    
+   
+}
+#eyeoff{
+    display: none;
+}
+
+   
